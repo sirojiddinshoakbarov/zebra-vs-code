@@ -1,0 +1,28 @@
+table, th, td {
+  border-collapse: collapse;
+}
+
+table td, th {
+  padding: 20px;
+}
+
+tr {
+  border-bottom: 1px solid #aaa;
+}
+
+tbody tr:last-child {
+  border: none;
+}
+
+tbody tr:hover {
+  background-color: rgb(64, 240, 64);
+  color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: #aaa;
+}
+
+thead th {
+  background-color: #fff;
+}/*# sourceMappingURL=main.css.map */
